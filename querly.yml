@@ -1,0 +1,6 @@
+rules:
+  # ...
+  - id: sp.debug_print
+    pattern:
+      - "where(:dstr:)"
+    message: "文字列によるSQL構築は本当に必要ですか？ SQL Injection を引き起こさないように気をつけてください。"
